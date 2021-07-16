@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+  display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.inputs {
+    height: 500px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.inputs input {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.inputs button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.inputs button:hover {
+    cursor: pointer;
+}
+.listoffriends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.friendcontainer {
+    display: flex;
+    flex-directon: row;
+    align-items: center;
+}
+.friendcontainer button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+.friendcontainer button:hover {
+    color: white;
+}
+.friend {
+    width: 400px;
+    height: 60px;
+    background-color: cadetblue;
+    color: white;
+    font-family: "Courier New";
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.friend h3 {
+    margin-left: 15px;
+}
+.update {
+    background-color: darkslateblue;
+}
+.delete {
+    background-color: indianred;
+}
